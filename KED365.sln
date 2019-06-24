@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmPackage", "CrmPackage\CrmPackage.csproj", "{DC31A788-90EC-4044-9CAE-80C91D2836C7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{698E4B9C-465B-4419-88BB-D3C9A42432B6} = {698E4B9C-465B-4419-88BB-D3C9A42432B6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflows", "Workflows\Workflows.csproj", "{698E4B9C-465B-4419-88BB-D3C9A42432B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC31A788-90EC-4044-9CAE-80C91D2836C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC31A788-90EC-4044-9CAE-80C91D2836C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC31A788-90EC-4044-9CAE-80C91D2836C7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DC31A788-90EC-4044-9CAE-80C91D2836C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC31A788-90EC-4044-9CAE-80C91D2836C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC31A788-90EC-4044-9CAE-80C91D2836C7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{698E4B9C-465B-4419-88BB-D3C9A42432B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698E4B9C-465B-4419-88BB-D3C9A42432B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698E4B9C-465B-4419-88BB-D3C9A42432B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698E4B9C-465B-4419-88BB-D3C9A42432B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CRMSolutionProperties) = preSolution
+		SolutionIsBoundToCRM = True
+	EndGlobalSection
+EndGlobal
